@@ -2,10 +2,15 @@
 
 #### LINK - https://youtu.be/sKqDq4TFbmY?si=C5EJys44R9a18g_d
 
-wget -qO- https://astral.sh/uv/install.sh | sh
+### This project uses uv, to install (on WSL2/Ubuntu)
+> wget -qO- https://astral.sh/uv/install.sh | sh
 
-uv venv
-source .venv/bin/activate
+### create virtual environment
+<br><code>uv venv</code>
+<br><code> </code>
+
+#### activate virtual environment
+<br><code>source .venv/bin/activate</code>
 
 uv pip install dagster dagster-webserver polars duckdb
 
