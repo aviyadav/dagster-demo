@@ -20,24 +20,24 @@
 #### To verify the installed dependencies
 <br><code>uv pip list</code>
 
-
-<br><code> </code>
-
 #### freeze the dependencies
 <br><code>uv pip freeze > requirements.txt</code>
 
-dagster dev -f assets.py
+### Test a asset
+<br><code>dagster dev -f assets.py</code>
 
 --------------------
 
-dagster project scaffold --name car_data
+#### create dagster project
+<br><code>dagster project scaffold --name car_data</code>
 
 cd car_data
 mkdir data
 
 // $Env:PYTHONLEGACYWINDOWSSTDIO = 'enable'
 
-to run - dagster dev
+### to run - 
+<code>dagster dev</code>
 
 dagster webserver - http://127.0.0.1:3000
 
