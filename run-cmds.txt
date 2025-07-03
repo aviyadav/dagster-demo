@@ -1,6 +1,4 @@
-# dagster-demo
-
-#### LINK - https://youtu.be/sKqDq4TFbmY?si=C5EJys44R9a18g_d
+https://youtu.be/sKqDq4TFbmY?si=C5EJys44R9a18g_d
 
 wget -qO- https://astral.sh/uv/install.sh | sh
 
